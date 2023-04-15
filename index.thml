@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com/"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Rampart+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .font-libre {
+        font-family: "Archivo", sans-serif;
+      }
+
+      .ella {
+        font-family: "Rampart One", cursive;
+      }
+      body {
+        font-family: "Archivo";
+        overflow-y: hidden; /* Hide vertical scrollbar */
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+      }
+    </style>
+
+    <title>Archivo</title>
+  </head>
+  <body class="flex flex-1 overflow-hidden">
+    <section
+      class="text-black bg-[url('https://picsum.photos/id/10/1900/1200')] backdrop-blurbg-cover tails-selected-element"
+      style="backdrop-filter: blur(8px)"
+      contenteditable="true"
+    >
+      <main
+        class="flex flex-col h-screen space-x-1 space-y-1 text-white backdrop-blur"
+      >
+        <div class="flex flex-1 overflow-hidden space-x space-y-1">
+          <div
+            class="hidden rounded-none w-1/5 space-x-1 space-y-1 border-white border-solid sticky items-start place-content-end sm:hidden xs:hidden md:static md:flex md:ml-8 md:mt-8"
+          >
+            <span
+              class="border-white rounded-none border-solid border-2 shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)] divide-transparent px-8 py- text-end plr-4 p-0 sticky flex-col space-x-0 hidden md:relative w-max p-2.5 md:block"
+            >
+              <p class="md:font-extrabold text-basetails-selected-element">
+                Archivo
+              </p>
+              <p class="text-sm">Web Inform</p>
+            </span>
+          </div>
+
+          <div
+            class="overflow-y-auto px-4 2tails-selected-element sm:w-fit lg:w-4/6"
+          >
+            <div
+              class="grid grid-flow-row-dense grid-cols-7 gap-3 grid-flow-row py-1 mr-4"
+            >
+              <div class="font-extrabold pr-2 col-start-1 text-base text-right">
+                Category
+                <div class="font-extralight text-xs">@date</div>
+              </div>
+              <div class="col-start-2 col-span-6 self-end">
+                <div
+                  class="flex h-auto w-full rounded-none border-solid border-white border-b-2 2xl:border-b-3"
+                >
+                  <div class="ctails-selected-element">
+                    <span
+                      class="font-semibold bg-white pl-2 pr-2 text-black font-light tails-preview text-end"
+                      >INDY/TECH</span
+                    >
+                  </div>
+                  <div class="flex-auto text-right">
+                    <span class="text-withe">By Roberto Betancur @t1n0l1n</span>
+                  </div>
+                </div>
+              </div>
+              <div class="font-extrabold pr-2 col-start-1 text-base text-right">
+                Tittle
+                <div class="font-extralight text-xs">@author</div>
+              </div>
+              <div class="col-span-6 col-start-2 text-4xl font-bold text-left">
+                Facebook's robots shut down after they develop new languaje
+              </div>
+              <div
+                class="font-extrabold pr-2 col-start-1 text-base text-right md:text-sm"
+              >
+                Description
+                <div class="font-extralight text-xs">@author</div>
+              </div>
+              <div
+                class="border-white border-b-2 col-start-2 col-span-6 text-lg leading-5 text-left"
+              >
+                <div class="container mb-3 font-semibold">
+                  <div class="container pb-5 2xl:text-xl">
+                    Facebook's has shut down two artificial intelligences that
+                    apperared to be chatting to each other in a strange languaje
+                    only they understood. The two chatbots came to create their
+                    own changes to english that made it easier for them to work
+                    - but which remained mysterious to the humans that
+                    supposedly look after them.
+                  </div>
+                </div>
+              </div>
+              <div class="font-extrabold pr-2 col-start-1 text-base text-right">
+                Ressume
+                <div class="font-extralight text-xs">@extract</div>
+              </div>
+              <div
+                class="col-start-2 col-span-6 text-lg leading-5 text-left border-white"
+              >
+                <div
+                  class="container mb-3 font-semibold border-white border-b-0"
+                >
+                  <div class="container pb-0 text-base font-normal">
+                    The bizarre discussions came has a facebook challenge its
+                    chatbots to try and negotiate with each other over a trade,
+                    attempting to swap hats, balls and books, each of which were
+                    given a certain value. But they quickly broke down as the
+                    robots appeared to chant at each other in a language that
+                    they each understood but which appears mostly
+                    incomprehansible to humans checks froms fossil fuel
+                    companies.
+                  </div>
+                </div>
+              </div>
+              <div class="font-extrabold pr-2 col-start-1 text-base text-right">
+                Opinion's
+                <div class="font-extralight text-xs">@collaborated</div>
+              </div>
+              <div
+                class="p-5 text-center border-0 col-start-2 col-span-3 2xl:p-0"
+              >
+                <div class="container">
+                  <div class="border-white border-b-2 font-bold text-left">
+                    Nicolaus
+                    <div class="inline-block font-extralight text-xs">
+                      @date
+                    </div>
+                  </div>
+                  <div class="text-base text-left pt-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Praesent pulvinar convallis erat, pretium tristique orci
+                    commodo quis. Morbi hendrerit elementum libero. Ut erat
+                    odio, cursus in elit eu, consequat finibus lectus. Aliquam
+                    dui metus, fringilla non libero non, mattis suscipit velit.
+                    In non consequat libero, egestas mollis lorem. Class aptent
+                    taciti sociosqu ad litora torquent per conubia nostra, per
+                    inceptos himenaeos. Donec in sodales turpis, sed tincidunt
+                    leo.
+                    <div class="">
+                      <br />
+                      <div class="">
+                        Nulla placerat mauris felis, sit amet lacinia dolor
+                        dapibus sit amet. Sed bibendum felis at semper
+                        vulputate. Aliquam aliquet sed magna nec varius. Donec
+                        ornare pharetra luctus. Etiam id dapibus diam. Quisque
+                        fermentum aliquam elit ac tempor. Phasellus tempus,
+                        velit non ullamcorper sollicitudin, magna felis aliquet
+                        orci, a semper massa sem et nisi.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="p-5 text-center border-0 col-span-3 2xl:p-0">
+                <div class="container">
+                  <div class="border-white border-b-2 font-bold text-left">
+                    Sebastian
+                    <div class="inline-block font-extralight text-xs">
+                      @date
+                    </div>
+                  </div>
+                  <div class="text-base text-left pt-3 2xl:text-xs sm:text-xs">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Praesent pulvinar convallis erat, pretium tristique orci
+                    commodo quis. Morbi hendrerit elementum libero. Ut erat
+                    odio, cursus in elit eu, consequat finibus lectus. Aliquam
+                    dui metus, fringilla non libero non, mattis suscipit velit.
+                    In non consequat libero, egestas mollis lorem. Class aptent
+                    taciti sociosqu ad litora torquent per conubia nostra, per
+                    inceptos himenaeos. Donec in sodales turpis, sed tincidunt
+                    leo. Nulla placerat mauris felis, sit amet lacinia dolor
+                    dapibus sit amet. Sed bibendum felis at semper vulputate.
+                    Aliquam aliquet sed magna nec varius. Donec ornare pharetra
+                    luctus. Etiam id dapibus diam. Quisque fermentum aliquam
+                    elit ac tempor. Phasellus tempus, velit non ullamcorper
+                    sollicitudin, magna felis aliquet orci, a semper massa sem
+                    et nisi. Vestibulum id urna quam. Proin suscipit dui a purus
+                    vestibulum posuere. Maecenas elementum faucibus varius.
+                    Morbi consectetur vehicula tortor sed porttitor. Ut sed
+                    aliquet nulla, in facilisis risus. Vivamus eget dolor id
+                    diam consequat ullamcorper quis quis sem. Ut nulla orci,
+                    luctus quis eleifend molestie, tincidunt quis massa. Aenean
+                    congue facilisis nibh sed commodo. Donec risus elit,
+                    ultrices et ante sit amet, posuere elementum orci.
+                    Pellentesque rutrum lorem non venenatis scelerisque. In in
+                    luctus justo. Praesent vitae est ut nunc cursus ullamcorper.
+                    Mauris blandit efficitur enim a imperdiet. Vestibulum
+                    lacinia elementum tempor. Fusce tempus enim leo, vitae
+                    aliquam magna consequat id. Nulla vehicula elit mi, sed
+                    euismod mauris ullamcorper non. Aenean a consequat velit.
+                    Fusce lacus nibh, maximus nec tortor sed, sollicitudin
+                    tincidunt urna. Fusce diam lacus, dapibus nec ante egestas,
+                    aliquet eleifend sem. Duis consequat magna condimentum ex
+                    tempus, non imperdiet nulla fermentum. Vestibulum dictum,
+                    risus vitae luctus condimentum, lorem dui tincidunt erat, ac
+                    tempor mi mi eu augue. Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. In tempor ultrices pharetra.
+                    Sed eu egestas eros, id cursus dui. Nam vitae sagittis elit,
+                    nec finibus tellus.
+                  </div>
+                </div>
+              </div>
+
+              <div class="font-extrabold pr-2 col-start-1 text-base text-right">
+                New's Footer
+                <div class="font-extralight text-xs">@Editorial</div>
+              </div>
+              <div
+                class="p-5 col-start-2 col-span-6 border-y-2 border-b-2 mt-4 uppercase text-left"
+              >
+                The Daily Bugle
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex p-3 border-white rounded-none border-solid border-0 m-auto"
+        >
+          <div class="font-extralight text-xs">
+            © Tinolin's, Inc. GPL-3.0-or-later.
+          </div>
+        </div>
+      </main>
+    </section>
+  </body>
+</html>
